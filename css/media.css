@@ -429,6 +429,20 @@ footer .col-md-4 .link a {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /*========== header part start here ===============*/
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        display: inline-block;
+    }
+
+    .navbar-nav .nav-item:hover {
+        color: #00e0d0 !important;
+    }
+
+    /*========== header part End here ===============*/
     .slick-dots {
         bottom: -5%;
     }
